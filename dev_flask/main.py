@@ -33,6 +33,7 @@ def get_user():
         'email': email,
         'success': success
     }
+    print("added small debugging statement")
     # return 'user route is working!'
     return jsonify(result)
 
